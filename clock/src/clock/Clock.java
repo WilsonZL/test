@@ -3,6 +3,9 @@ package clock;
 import display.Display;
 
 public class Clock {
+	
+	int WilsonZL;
+	
 	private Display hour = new Display(24);
 	private Display minute = new Display(60);
 	
